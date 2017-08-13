@@ -1,1 +1,1 @@
-/usr/bin/cc     CMakeFiles/client.dir/src/main.c.o  -o client -lzmq 
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/client.dir/src/main.c.o  -o client -lzmq -ljsmn 

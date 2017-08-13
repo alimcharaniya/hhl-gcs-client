@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Desktop/client/src/main.c
+../jsmn/jsmn.h
+stddef.h
+-
+
+/Users/alimcharaniya/Code/hhl-gcs-client/src/main.c
 zmq.h
 -
 stdio.h
@@ -20,9 +24,11 @@ string.h
 assert.h
 -
 zhelpers.h
-/home/pi/Desktop/client/src/zhelpers.h
+/Users/alimcharaniya/Code/hhl-gcs-client/src/zhelpers.h
+jsmn.h
+-
 
-/home/pi/Desktop/client/src/zhelpers.h
+/Users/alimcharaniya/Code/hhl-gcs-client/src/zhelpers.h
 zmq.h
 -
 assert.h

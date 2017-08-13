@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/Desktop/client/src/main.c" "/home/pi/Desktop/client/build/CMakeFiles/client.dir/src/main.c.o"
+  "/Users/alimcharaniya/Code/hhl-gcs-client/src/main.c" "/Users/alimcharaniya/Code/hhl-gcs-client/build/CMakeFiles/client.dir/src/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../jsmn"
   )
 
 # Targets to which this target links.
