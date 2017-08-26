@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/alimcharaniya/Code/hhl-gcs-client/jsmn 
+C_INCLUDES = 
 

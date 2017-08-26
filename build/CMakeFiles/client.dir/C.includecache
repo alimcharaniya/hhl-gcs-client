@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../jsmn/jsmn.h
-stddef.h
--
-
 /Users/alimcharaniya/Code/hhl-gcs-client/src/main.c
 zmq.h
 -
@@ -25,8 +21,6 @@ assert.h
 -
 zhelpers.h
 /Users/alimcharaniya/Code/hhl-gcs-client/src/zhelpers.h
-jsmn.h
--
 
 /Users/alimcharaniya/Code/hhl-gcs-client/src/zhelpers.h
 zmq.h
